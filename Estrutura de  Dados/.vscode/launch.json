@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RepresentBinaria",
+            "request": "launch",
+            "mainClass": "RepresentBinaria",
+            "projectName": "Estrutura de  Dados_ea0dd8ee"
+        },
+        {
+            "type": "java",
+            "name": "ListaDosDevedores",
+            "request": "launch",
+            "mainClass": "ListaDosDevedores",
+            "projectName": "Estrutura de  Dados_ea0dd8ee"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",
