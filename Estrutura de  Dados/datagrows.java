@@ -1,3 +1,4 @@
+
 import java.util.Random;
 public class datagrows {
     public static void main(String[] args)
@@ -12,20 +13,23 @@ public class datagrows {
             System.out.println("n = " + n +"-> Tempo "+ time +" segundos");
         }
 
-        System.out.print("\nTestando StringBuilder...");
+        System.out.print("\nTestando StringBuilder...\n");
         for(int n: testValues)
         {
             double time = testStringBuilder(n);
-            System.out.print (" n = "+ "Tempo: ->"+ time + " segundo");
+            System.out.println(" n = "+ "Tempo: ->"+ time + " segundo");
         }
 
     }
+    
     public static double tesStringConcat(int n)
     {
         StopWatch sw = new StopWatch(); // O conometro cmc a contar
         Random rd  = new Random();
 
-        String s = " ";
+        
+        @SuppressWarnings("unused")
+        String s = "";
 
         for (int i = 0; i <n; i++)
         {
@@ -36,7 +40,7 @@ public class datagrows {
 
     public static double testStringBuilder(int n)
     {
-        Stopwatch sw = new StopWatch();
+        StopWatch sw = new StopWatch();
         Random rd = new Random ();
 
         StringBuilder sb = new StringBuilder ();
