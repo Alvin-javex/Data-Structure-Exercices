@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "datagrows",
+            "request": "launch",
+            "mainClass": "datagrows",
+            "projectName": "Estrutura de  Dados_ea0dd8ee"
+        },
+        {
+            "type": "java",
+            "name": "ex",
+            "request": "launch",
+            "mainClass": "ex",
+            "projectName": "Estrutura de  Dados_ea0dd8ee"
+        },
+        {
+            "type": "java",
             "name": "RepresentBinaria",
             "request": "launch",
             "mainClass": "RepresentBinaria",
