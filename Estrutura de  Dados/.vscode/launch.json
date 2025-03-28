@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Inheritance.Main",
+            "projectName": "Estrutura de  Dados_ea0dd8ee"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "ArrayStack.Main",
             "projectName": "Estrutura de  Dados_ea0dd8ee"
         },
